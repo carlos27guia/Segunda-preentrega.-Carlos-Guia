@@ -1,0 +1,37 @@
+$colornavbar: rgb(51, 21, 65);
+$bordecolnav: rgb(102, 21, 139);
+.navbar {
+  background-color: $colornavbar;
+  border-color: $bordecolnav;
+}
+
+$fuenth: "Franklin Gothic Medium";
+.h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: $fuenth;
+}
+
+$fonth: bold;
+.h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: $fonth;
+}
+
+$formcol: rgb(81, 21, 88);
+$formborde: rgb(26, 5, 32);
+$formtitle: rgb(253, 247, 253);
+.form_title {
+  color: $formtitle;
+}
+.formulario {
+  background-color: $formcol;
+  border-color: $formborde;
+}

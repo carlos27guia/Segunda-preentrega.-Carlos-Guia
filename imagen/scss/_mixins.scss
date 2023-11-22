@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+$color-prin: purple;
+$color-letra: rgb(230, 163, 230);
+
+body {
+  background: $color-prin;
+}
+
+p {
+  color: $color-letra;
+}
+
+@mixin caja_personalizada($fondo: white) {
+  background-color: $fondo;
+  border: 2px solid black;
+  box-shadow: 0px 0px 2px black;
+  color: $color-letra;
+}

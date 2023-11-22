@@ -147,6 +147,14 @@ span.sol{
     background-size: cover
 }
 
+main.Card{
+    background-color: #7AB730;
+    color: #000;
+}
+
+main.form{
+    color: #000;
+}
   footer{
     text-align: center;
     font-size: 30px;

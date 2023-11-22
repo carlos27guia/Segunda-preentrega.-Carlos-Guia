@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.footer {
+  text-align: center;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
+  .formulario {
+    color: rgb(41, 3, 30);
+  }
+  .redes_title {
+    color: rgb(206, 172, 196);
+    background-color: rgb(15, 4, 15);
+  }
+  .iconos {
+    background-color: rgb(15, 4, 15);
+    .icon {
+      width: 20rem;
+      height: 20rem;
+      color: purple;
+    }
+  }
+}

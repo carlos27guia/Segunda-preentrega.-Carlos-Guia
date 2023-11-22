@@ -1,0 +1,67 @@
+html {
+  body {
+    @media screen and (min-width: 375px) {
+      .tableau {
+        font-size: x-small;
+      }
+      .p {
+        font-size: x-small;
+        display: flex;
+        justify-content: center;
+      }
+      .mapa {
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+    @media screen and (min-width: 576px) {
+      .p {
+        font-size: smaller;
+        display: flex;
+        justify-content: center;
+      }
+      .tableau {
+        font-size: small;
+      }
+      .mapa {
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+    @media screen and (min-width: 768px) {
+      .logo {
+        width: 154px;
+        height: 154px;
+      }
+      .tableau {
+        font-size: medium;
+      }
+      .p {
+        font-size: medium;
+        display: flex;
+        justify-content: center;
+      }
+      .mapa {
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+    @media screen and (min-width: 992px) {
+      .p {
+        font-size: large;
+        display: flex;
+        justify-content: center;
+      }
+      .table {
+        font-size: large;
+      }
+      .mapa {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}
