@@ -31,6 +31,45 @@ html body{
   }
 
 
+  .logo{
+    width: 80px;
+    float: left;
+    margin-top: 0px;
+    box-sizing: border-box;
+  } */
+
+  .Titulo-entrada {
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+  }
+
+.Portada{
+    background-image:url("../imagen/Imagen\ Portada.jpg");
+    height: calc(100vh - 100px);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover
+    
+    
+}
+.Contenido-Portada{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    
+
+}
+span.sol{
+    color: rgb(255, 0, 0);
+    background-color: rgba(255, 255, 250, 0.3)
+}
+
+
+
   footer{
     text-align: center;
     font-size: 30px;
