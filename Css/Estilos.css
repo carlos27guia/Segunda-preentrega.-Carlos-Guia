@@ -136,6 +136,17 @@ span.sol{
 }
 
 
+.Ubicacion{
+
+    height: calc(100vh - 100px);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
   footer{
     text-align: center;
     font-size: 30px;
@@ -229,7 +240,12 @@ span.sol{
     .contenedorGuias {
         flex-direction: column;
     }
-
+    
+    .Ubicacion {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
     /*Footer*/
 
     .footerContenido {
@@ -247,4 +263,10 @@ span.sol{
     .contenedorDestinos {
         grid-template-columns: 1fr;
     }
+}
+.Ubicacion {
+    margin-top: auto;
+    margin-bottom: auto;
+    flex-direction: column;
+    text-align: center;
 }
