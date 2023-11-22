@@ -68,7 +68,67 @@ span.sol{
     background-color: rgba(255, 255, 250, 0.3)
 }
 
+.destinos {
+    text-align: center;
+    margin: 10vh;
+    border-bottom: 1px solid black;
+}
 
+.destinos h3 {
+    color: #28a745;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.destinos p {
+    font-size: 4rem;
+    color: #212121;
+    padding: 10px;
+}
+
+.contenedorDestinos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.destino {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px; 
+}
+
+.tarjeta img {
+    max-width: 100%;
+
+}
+
+.tarjeta p {
+    margin: 10px 0;
+}
+
+.tarjeta button {
+    background-color: #7AB730;
+    color: #871919;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
 
   footer{
     text-align: center;
