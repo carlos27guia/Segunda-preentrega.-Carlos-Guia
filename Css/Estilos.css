@@ -32,7 +32,7 @@ html body{
 
 
   .logo{
-    width: 80px;
+    width: 60px;
     float: left;
     margin-top: 0px;
     box-sizing: border-box;
@@ -130,6 +130,12 @@ span.sol{
     margin-top: 10px;
 }
 
+.contenedorGuias {
+    display: flex;
+    margin: 10vh;
+}
+
+
   footer{
     text-align: center;
     font-size: 30px;
@@ -186,13 +192,13 @@ span.sol{
 @media (max-width:1023px) {
     /*Header*/
 
-    .encabezado {
+    .Encabezado {
         height: auto;
         flex-direction: column;
         text-align: center;
     }
 
-    .encabezado .boton {
+    .Encabezado .boton {
         display: none;
     }
 
