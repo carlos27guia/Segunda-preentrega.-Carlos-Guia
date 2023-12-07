@@ -1,0 +1,20 @@
+.Ubicacion {
+    height: calc(100vh - 100px);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    &.Card {
+        background-color: #7AB730;
+        color: #000;
+    }
+
+    &.form {
+        color: #000;
+    }
+}

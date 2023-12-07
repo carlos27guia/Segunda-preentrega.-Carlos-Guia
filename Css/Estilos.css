@@ -1,280 +1,235 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-html body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    Background: linear-gradient(80deg, rgb(248, 248, 248) 1%, rgb(198, 187, 38) 35%, rgb(169, 39, 24) 100%);
-
+html body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  Background: linear-gradient(80deg, rgb(248, 248, 248) 1%, rgb(198, 187, 38) 35%, rgb(169, 39, 24) 100%);
 }
 
 .navbar {
-    background-color: rgb(65, 21, 21);
-    border-color: rgb(0, 0, 0);
-    font-size: 1.5rem;
-    justify-content: space-between;
-    border-style: solid;
-    list-style-type: none;
-    overflow: hidden;
-  }
-  .navbar .navbar-nav a:hover {
-    color: rgb(255, 47, 0);
-    font-weight: bolder;
-  }
-  .navbar .navbar-nav .nav-link {
-    color: rgb(255, 0, 0);
-  }
-  .navbar .navbar-nav .opcion {
-    color: rgb(192, 163, 19);
-  }
-
-
-  .logo{
-    width: 60px;
-    float: left;
-    margin-top: 0px;
-    box-sizing: border-box;
-  } */
-
-  .Titulo-entrada {
-    text-decoration: none;
-    color: antiquewhite;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 80px;
-  }
-
-.Portada{
-    background-image:url("../imagen/Imagen\ Portada.jpg");
-    height: calc(100vh - 100px);
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-repeat: no-repeat;
-    background-size: cover
-    
-    
+  background-color: rgb(65, 21, 21);
+  border-color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  justify-content: space-between;
+  border-style: solid;
+  list-style-type: none;
+  overflow: hidden;
 }
-.Contenido-Portada{
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.2);
-    
-
+.navbar .navbar-nav a:hover {
+  color: rgb(255, 47, 0);
+  font-weight: bolder;
 }
-span.sol{
-    color: rgb(255, 0, 0);
-    background-color: rgba(255, 255, 250, 0.3)
+.navbar .navbar-nav .nav-link {
+  color: rgb(255, 0, 0);
+}
+.navbar .navbar-nav .opcion {
+  color: rgb(192, 163, 19);
+}
+
+.logo {
+  width: 60px;
+  float: left;
+  margin-top: 0px;
+  box-sizing: border-box;
+}
+
+.Titulo-entrada {
+  text-decoration: none;
+  color: antiquewhite;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 80px;
+}
+
+.Portada {
+  background-image: url("../imagen/Imagen Portada.jpg");
+  height: calc(100vh - 100px);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Contenido-Portada {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+span.sol {
+  color: rgb(255, 0, 0);
+  background-color: rgba(255, 255, 250, 0.3);
 }
 
 .destinos {
-    text-align: center;
-    margin: 10vh;
-    border-bottom: 1px solid black;
+  text-align: center;
+  margin: 10vh;
+  border-bottom: 1px solid black;
 }
-
 .destinos h3 {
-    color: #28a745;
-    text-transform: uppercase;
-    font-size: 3rem;
+  color: #28a745;
+  text-transform: uppercase;
+  font-size: 3rem;
 }
-
 .destinos p {
-    font-size: 4rem;
-    color: #212121;
-    padding: 10px;
+  font-size: 4rem;
+  color: #212121;
+  padding: 10px;
 }
 
 .contenedorDestinos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
 .destino {
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
 }
 
 .tarjeta {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(0, 0, 0);
-    border: 1px solid #ccc;
-    padding: 20px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    margin: 10px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(14, 13, 13);
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 10px;
 }
-
 .tarjeta img {
-    max-width: 100%;
-
+  max-width: 100%;
 }
-
 .tarjeta p {
-    margin: 10px 0;
+  margin: 10px 0;
 }
-
 .tarjeta button {
-    background-color: #7AB730;
-    color: #871919;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    margin-top: 10px;
+  background-color: #7AB730;
+  color: #871919;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
 }
 
-.contenedorGuias {
-    display: flex;
-    margin: 10vh;
+.Ubicacion {
+  height: calc(100vh - 100px);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
-.Ubicacion{
-
-    height: calc(100vh - 100px);
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-repeat: no-repeat;
-    background-size: cover
+main.Card {
+  background-color: #7AB730;
+  color: #000;
+}
+main.form {
+  color: #000;
 }
 
-main.Card{
-    background-color: #7AB730;
-    color: #000;
-}
-
-main.form{
-    color: #000;
-}
-  footer{
-    text-align: center;
-    font-size: 30px;
-    background-color: #000;
-    color: white;
-    padding: 20px;
-    width: auto;
-    font-size: 1rem;
-
+footer {
+  text-align: center;
+  font-size: 30px;
+  background-color: #000;
+  color: white;
+  padding: 20px;
+  width: auto;
+  font-size: 1rem;
 }
 
 .footer {
-    background-color: #212121;
-    color: #fff;
-    padding: 20px 0;
+  background-color: #212121;
+  color: #fff;
+  padding: 20px 0;
 }
 
 .footerContenido {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .footer h4 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 
-.infoContacto p,
+.infoContacto p {
+  margin: 5px 0;
+  font-size: 1.2rem;
+}
+
 .redesSociales a {
-    margin: 5px 0;
-    font-size: 1.2rem;
+  margin: 5px 0;
+  font-size: 1.2rem;
+  color: #7AB730;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 1.5rem;
 }
-
-.redesSociales a {
-    color: #7AB730;
-    text-decoration: none;
-    margin-right: 10px;
-    font-size: 1.5rem;
-}
-
 .redesSociales a:hover {
-    color: #28a745;
+  color: #28a745;
 }
 
-
-.footer i {
-    margin-right: 100px;
+.contenedorGuias {
+  display: flex;
+  margin: 10vh;
 }
+
 /*768px hasta 1023px*/
-
-@media (max-width:1023px) {
-    /*Header*/
-
-    .Encabezado {
-        height: auto;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .Encabezado .boton {
-        display: none;
-    }
-
-    /*Banner*/
-
-    .bannerContenido p {
-        font-size: 2.5rem;
-    }
-
-    /*Destinos*/
-
-    .destinos {
-        margin: 5vh;
-        font-size: 2rem;
-    }
-
-    .destinos h3,
-    .destinos p {
-        font-size: inherit;
-    }
-
-    .contenedorDestinos {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    /*Guias*/
-
-    .contenedorGuias {
-        flex-direction: column;
-    }
-    
-    .Ubicacion {
-        height: auto;
-        flex-direction: column;
-        text-align: center;
-    }
-    /*Footer*/
-
-    .footerContenido {
-        flex-direction: column;
-        text-align: center;
-    }
-}
-
-/*Ajustes específicos para la vista móvil*/
-/*0 hasta 768px*/
-
-@media (max-width:768px) {
-    /*Destinos */
-
-    .contenedorDestinos {
-        grid-template-columns: 1fr;
-    }
-}
-.Ubicacion {
-    margin-top: auto;
-    margin-bottom: auto;
+@media (max-width: 1023px) {
+  /*Header*/
+  .Encabezado {
+    height: auto;
     flex-direction: column;
     text-align: center;
+  }
+  .Encabezado .boton {
+    display: none;
+  }
+  /*Banner*/
+  .bannerContenido p {
+    font-size: 2.5rem;
+  }
+  /*Destinos*/
+  .destinos {
+    margin: 5vh;
+    font-size: 2rem;
+  }
+  .destinos h3,
+  .destinos p {
+    font-size: inherit;
+  }
+  .contenedorDestinos {
+    grid-template-columns: 1fr 1fr;
+  }
+  /*Guias*/
+  .contenedorGuias {
+    flex-direction: column;
+  }
+  .Ubicacion {
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+  /*Footer*/
+  .footerContenido {
+    flex-direction: column;
+    text-align: center;
+  }
 }
+
+/*# sourceMappingURL=Estilos.css.map */

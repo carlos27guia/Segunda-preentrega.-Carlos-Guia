@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html body {
+    font-family: $tipo-letra;
+    color: white;
+    Background: linear-gradient(80deg, rgb(248, 248, 248) 1%, rgb(198, 187, 38) 35%, rgb(169, 39, 24) 100%);
+}
